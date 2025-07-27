@@ -45,3 +45,18 @@ gifconvert.sh is a simple Bash script to convert `.mp4` or `.m4v` video files to
 - Outputs a 640px-wide GIF with high-quality Lanczos scaling.
 - Simple error handling for missing files or invalid inputs.
 
+
+## convert2mp4.sh
+
+convert2mp4.sh is a simple Bash script that converts an M4V video file to MP4 format using FFmpeg, preserving the original video and audio codecs.
+
+### Features 
+
+- Check if a filename is provided
+- Verify the input file exists
+- Convert the M4V file to MP4 using FFmpeg
+- Output the result as <original_filename>.mp4
+- Display success or error messages
+
+
+
