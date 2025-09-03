@@ -56,7 +56,19 @@ convert2mp4.sh is a simple Bash script that converts an M4V video file to MP4 fo
 - Verify the input file exists
 - Convert the M4V file to MP4 using FFmpeg
 - Output the result as <original_filename>.mp4
-- Display success or error messages
 
 
+## mp3tomp4.sh
 
+mp3tomp4.sh is a simple Bash script that converts an mp3 audio file to MP4 format using FFmpeg and a static JPEG image. 
+
+### Features 
+
+- Accepts two inputs: the image and mp3 file base names without extensions
+- Verifies the input files exist
+- Converts the mp3 file to MP4 using FFmpeg
+    - Uses the H.264 codec for video encoding
+    - Encodes the audio to AAC for compatibility with MP4
+    - Scales the image to 1920x1080 while preserving its aspect ratio and adds padding to center it.
+- Outputs the result as <mp3_filename>.mp4
+- Displays success or error messages
