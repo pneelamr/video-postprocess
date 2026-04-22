@@ -72,3 +72,15 @@ mp3tomp4.sh is a simple Bash script that converts an mp3 audio file to MP4 forma
     - Scales the image to 1920x1080 while preserving its aspect ratio and adds padding to center it.
 - Outputs the result as <mp3_filename>.mp4
 - Displays success or error messages
+
+## movtomp4.sh
+
+movtomp4.sh is a simple Bash script that converts an mov audio file to MP4 format using FFmpeg. 
+
+### Features 
+
+- Accepts one inputs: the mov file name (accepts several)
+- Verifies the input file exist
+- Converts the mov file to MP4 using FFmpeg
+- Outputs the result as <mov_filename>.mp4
+- Displays success or error messages
